@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SamuelNittbaur.Qualifications"
+             BackgroundColor="#4a4a4a">
+
+    <StackLayout>
+    <ScrollView VerticalOptions="StartAndExpand">
+        <StackLayout>
+            <Image Source="linkdinPic.jpg" Margin="0,-30,0,30"></Image>
+                <Label TextColor="White" Text="Meine Qualifikationen" FontSize="30" FontAttributes="Bold" Margin="5,-30,5,5"></Label>
+
+                <Label Text="Studium" TextColor="White" FontAttributes="Bold" Margin="5" FontSize="20"></Label>
+                <Label Text="Studium an der Fernuiversität IU. Die Universität ist ansässig in Berlin, jedoch findet das Studium online statt. Mit dem B. Sc. bin ich zum aktuellen Stand der Erstellung der App mit über 40% fertig und schließe diesen voraussichtlich 2024 ab." TextColor="White" Margin="5"></Label>
+                <Button x:Name="OpenIU" Clicked="OpenIU_Clicked" Text="Zur IU Homepage"></Button>
+                <Label Text="Akademie Studium" TextColor="White" FontAttributes="Bold" Margin="5" FontSize="20"></Label>
+                <Label Text="Neben meiner Ausbildung absolvierte ich Kurse an der Fernuni Hagen in theoretischer Informatik. Die Kurse umfassten Themen, wie objektorientierte Programmierung mit Java, imperative Programmierung mit Pascal und wissenschaftliches Arbeiten." TextColor="White" Margin="5"></Label>
+                <Label Text="Elektrotechnik Ausbildung (EGS)" TextColor="White" FontAttributes="Bold" Margin="5" FontSize="20"></Label>
+                <Label Text="Nach meinem Abitur habe ich eine Ausbildung im Bereich Elktrotechnik begonnen und diese im Juli 2023 verkürzt abgeschlossen. Die Ausbildung umfasste das Entwerfen von Schaltkreise, das Programmieren von µ-Controllern und das integrieren von Steuereungseinheiten in Industrieanlagen." TextColor="White" Margin="5"></Label>
+                <Button x:Name="OpenAusbildung" Clicked="OpenIU_Clicked" Text="Zu den Dokumenten (OneDrive)"></Button>
+                <Label Text="Abitur" TextColor="White" FontAttributes="Bold" Margin="5" FontSize="20"></Label>
+
+                <Label Text="Im Jahr 2020 habe ich mein Abitur an einem allgemeinbildenden Gymnasium absolviert (Elisabeth Selbert Gymnasium)" TextColor="White" Margin="5"></Label>
+                <BoxView HeightRequest="50"></BoxView>
+        </StackLayout>
+    </ScrollView>
+        <Button x:Name="Back" Clicked="Back_Clicked"  Text="Back"></Button>
+    </StackLayout>
+
+</ContentPage>
+ 

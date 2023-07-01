@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SamuelNittbaur.Passions"
+             BackgroundColor="#4a4a4a">
+
+    <StackLayout>
+    <ScrollView VerticalOptions="StartAndExpand">
+        <StackLayout>
+            <Image Source="ListPassion.jpg"></Image>
+            <Label TextColor="White" Text="Meine Passionen" FontSize="30" FontAttributes="Bold" Margin="5"></Label>
+            <Label TextColor="White" Margin="5" HorizontalTextAlignment="Start"
+                   Text="Meine Passionen sind eng verkmüpft mit meinen beruflichen Zielen. Ich bin ein großer Fan davon, mich an meine Grenzen heranzutasten und herauszufinden, wo ich stehe und wohin ich kommen kann."></Label>
+
+            <Label Text="Tauchen" TextColor="White" FontAttributes="Bold" FontSize="25" Margin="5"></Label>
+
+            <Label TextColor="White" Margin="5"
+                   Text="Eine bedeutende Facette meines Lebens ist das Tauchen, eine Sportart, bei der ich nur durch rationales Denken und Vertrauen überleben kann. Bei einer Tauchtiefe von 40 Metern, meinem bisherigen persönlichen Rekord, hatte ich die Möglichkeit, in unzugängliche Welten einzutauchen. Der immense Druck lehrte mich stets, mich selbst unter Kontrolle zu halten. Darüber hinaus eröffnet mir das Tauchen die Möglichkeit, eine Vielzahl von unterschiedlichen Orten zu erkunden, darunter Ägypten, Panama und Indonesien." ></Label>
+            <ScrollView Orientation="Horizontal">
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="DivePic1.jpg" HeightRequest="200"></Image>
+                    <Image Source="DivePic2.JPG" HeightRequest="200"></Image>
+                    <Image Source="DivePic3.jpg" HeightRequest="200"></Image>
+                    <Image Source="DivePic4.jpg" HeightRequest="200"></Image>
+                </StackLayout>
+            </ScrollView>
+
+            <Label Text="Cardio" TextColor="White" FontAttributes="Bold" FontSize="25" Margin="5"></Label>
+
+            <Label TextColor="White" Margin="5"
+                   Text="Eine weitere bedeutsame sportliche Disziplin prägt mein Leben maßgeblich: Ausdauer. Als begeisterter Läufer und Fahrradfahrer widme ich mich regelmäßig diesen Sportarten, indem ich mehrmals pro Woche trainiere. Dadurch eröffnen sich mir auch immer wieder die Gelegenheiten, an Wettbewerben teilzunehmen: " ></Label>
+            <Label TextColor="White" Margin="5" 
+                   Text="• Marathon 2023 Freiburg"></Label>
+            <Label TextColor="White" Margin="5" 
+                   Text="• Halbmarathon 2023 Stuttgart"></Label>
+            <Label TextColor="White" Margin="5" 
+                   Text="• Halbmarathan 2022 Mannheim"></Label>
+            <Label TextColor="White" Margin="5" 
+                   Text="• Black Forrest Ultra Bike Marathon 2022"></Label>
+            <Label TextColor="White" Margin="5" 
+                   Text="• MudMasters 2022"></Label>
+            <Label TextColor="White" Margin="5" 
+                   Text="• (Black Forrest Ultra Bike 2023)"></Label>
+            <Label TextColor="White" Margin="5" 
+                   Text="• (MudMasters 2023)"></Label>
+
+            <ScrollView Orientation="Horizontal">
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="CardioPic1.jpg" HeightRequest="200"></Image>
+                    <Image Source="CardioPic2.JPG" HeightRequest="200"></Image>
+                    <Image Source="CardioPic3.jpg" HeightRequest="200"></Image>
+                    <Image Source="CardioPic4.jpg" HeightRequest="200"></Image>
+                </StackLayout>
+            </ScrollView>
+            <Label Text="Segeln" TextColor="White" FontAttributes="Bold" FontSize="25" Margin="5"></Label>
+
+            <Label TextColor="White" Margin="5"
+                   Text="Das Segeln hat einen bedeutenden Einfluss auf mein Leben und ist eine Sportart, die mir große Freude bereitet. Die Kombination aus Wind und Wasser fasziniert mich zutiefst und ermöglicht es mir, neue Horizonte zu erkunden. Sobald ich auf einem Segelboot bin, spüre ich eine besondere Verbindung zur Natur und finde innere Ruhe. Das Segeln erfordert Geschicklichkeit, Teamwork und ein Verständnis für die Kräfte der Natur, die wir nutzen können." ></Label>
+            <ScrollView Orientation="Horizontal">
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="SailPic1.jpg" HeightRequest="200"></Image>
+                    <Image Source="SailPic2.JPG" HeightRequest="200"></Image>
+                   
+                </StackLayout>
+            </ScrollView>
+
+            <Label Text="Skifahren und Berge" TextColor="White" FontAttributes="Bold" FontSize="25" Margin="5"></Label>
+
+            <Label TextColor="White" Margin="5"
+                   Text="Die Berge haben eine tiefgreifende Wirkung auf mein Leben, und das Skifahren im Winter bereitet mir eine immense Freude. Die imposante Verschmelzung von schneebedeckten Gipfeln und der Möglichkeit, elegant die Hänge hinabzugleiten, übt eine unwiderstehliche Faszination auf mich aus und eröffnet mir völlig neue Perspektiven." ></Label>
+            <ScrollView Orientation="Horizontal">
+                <StackLayout Orientation="Horizontal">
+                        <Image Source="WinterPic1.jpg" HeightRequest="200"></Image>
+                        <Image Source="WinterPic2.JPG" HeightRequest="200"></Image>
+                        <Image Source="WinterPic3.JPG" HeightRequest="200"></Image>
+                        <Image Source="WinterPic4.JPG" HeightRequest="200"></Image>
+                        <Image Source="WinterPic5.JPG" HeightRequest="200"></Image>
+                   
+                </StackLayout>
+            </ScrollView>
+
+            <BoxView HeightRequest="50"></BoxView>
+        </StackLayout>
+    </ScrollView>
+        <Button x:Name="Back" Clicked="Back_Clicked"  Text="Back"></Button>
+    </StackLayout>
+
+</ContentPage>
+ 

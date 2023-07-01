@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SamuelNittbaur.Skills"
+             BackgroundColor="#4a4a4a">
+
+    <StackLayout>
+    <ScrollView VerticalOptions="StartAndExpand">
+        <StackLayout>
+            <Image Source="ListProfile.jpg" Margin="0,-30,0,30"></Image>
+            <Label TextColor="White" Text="Meine Skills" FontSize="30" FontAttributes="Bold" Margin="5,-30,5,5"></Label>
+            <Label Text="Programmiersprachen" TextColor="White" FontAttributes="Bold" Margin="5" FontSize="20"></Label>
+            <Label Text="Im Fokus meiner Berufswahl steht natürlich die Wahl der Programmiersprachen in denen ich mich vertiefe. Mein ganz klarer Favorit ist die Sprache C# in Kombination mit den .Net Frameworks. Zu dem Frameworks werde ich weiter unten noch mehr erzählen. Neben C# konnte ich verschiedene Sprachen in unterschiedlichen Projekten erlernen. Dazu gehört Python (durch rPi Projekte), Java durch meine Uni und durch das Akademiestudium, HTML und CSS durch private Projekte und C++ durch µ-Controller Programmierung während meiner Ausbildung. " TextColor="White" Margin="5"></Label>
+            <Label Text="Frameworks" TextColor="White" FontAttributes="Bold" Margin="5" FontSize="20"></Label>
+            <Label Text="Im Großen und Ganzen beschränkt sich mein Framework-Wissen auf die .Net Umgebung. Jedoch kann ich jegliche Plattformen und Formate damit abbilden: ASP.Net und Blazor für die Webentwicklung/ Rest-API Entwicklung, Xamarin Forms für die mobile Entwicklung und WPF für Desktop Applikationen." TextColor="White" Margin="5"></Label>
+            <Label Text="Git" TextColor="White" FontAttributes="Bold" Margin="5" FontSize="20"></Label>
+            <Label Text="Für fast alle meine Projekte errichte ich Repositorys, auch um agiler zu arbeiten in Teams. Deshalb würde ich behaupten, dass ich die Grundkenntnisse in Git auf jedenfall behersche und anwenden kann. Ich konnte neben privater Projekte auch in den Software Abteilungen meiner Firma und in Uni Kursen diese Fähigkeiten schon anwenden." TextColor="White" Margin="5"></Label>
+
+            <Label Text="Office 365" TextColor="White" FontAttributes="Bold" Margin="5" FontSize="20"></Label>
+            <Label Text="Ein Must-Have in der heutigen Zeit ist natürlich das Verwenden von Office Produkten. Dabei habe ich während meiner Oberstufen Zeit auf dem Gymnasium ECDl-Zertifikate in PowerPoint und Excel erwerben können und diese Kenntnisse während meiner Arbeit, Ausbildung, Studium und Projekten weiter vertiefen können. Auf der anderen Seite behersche ich auch den Umgang mit Markdown, da ich das auch standartmäßig für meine Repositorys benutze" TextColor="White" Margin="5"></Label>
+
+            <Label Text="Hardware" TextColor="White" FontAttributes="Bold" Margin="5" FontSize="20"></Label>
+            <Label Text="Während meiner Ausbildung hatte ich sehr viel mit µ-Controlling zutun und bekam dadurch auch einen sehr tiefen Einblick in Hardware nahe Themen. Mein ganz klarer Favorit dabei war das benutzen von PC-Technik und die Kommunikation zwischen Controllern." TextColor="White" Margin="5"></Label>
+
+            </StackLayout>
+    </ScrollView>
+        <Button x:Name="Back" Clicked="Back_Clicked"  Text="Back"></Button>
+    </StackLayout>
+
+</ContentPage>
+ 

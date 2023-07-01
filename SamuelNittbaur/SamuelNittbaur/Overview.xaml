@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SamuelNittbaur.OverView"
+             BackgroundColor="#4a4a4a">
+
+        <StackLayout>
+            <Label TextColor="White" FontAttributes="Bold" HorizontalOptions="Center" FontSize="40" Margin="0,20,0,0">About Me</Label>
+        
+            <BoxView HeightRequest="50"></BoxView>
+            <Frame CornerRadius="20" HeightRequest="50" Margin="20" BackgroundColor="#cacbcc">
+                <Grid>
+                    <StackLayout Orientation="Horizontal">
+                        <Image Source="ListPassion.jpg" Margin="-20"></Image>
+                        <Label Text="Meine Passionen" Margin="40,0,0,0" VerticalOptions="Center" FontAttributes="Bold" FontSize="20" TextColor="White"></Label>
+                    </StackLayout>
+                    <Button x:Name="PassionsButton" Clicked="PassionsButton_Clicked" Margin="-40" BackgroundColor="Transparent"></Button>
+                </Grid>
+            </Frame>
+            <Frame CornerRadius="20" HeightRequest="50" Margin="20" BackgroundColor="#cacbcc">
+                <Grid>
+                    <StackLayout Orientation="Horizontal">
+                        <Image Source="linkdinPic.jpg" Margin="-30"></Image>
+                        <Label Text="Meine Qualifikationen" Margin="40,0,0,0" VerticalOptions="Center" FontAttributes="Bold" FontSize="20" TextColor="White"></Label>
+                    </StackLayout>
+                    <Button x:Name="QualificationsButton" Clicked="QualificationsButton_Clicked" Margin="-40" BackgroundColor="Transparent"></Button>
+                </Grid>
+        </Frame>
+        <Frame CornerRadius="20" HeightRequest="50" Margin="20" BackgroundColor="#cacbcc">
+            <Grid>
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="ListProfile.jpg" Margin="-20"></Image>
+                    <Label Text="Meine Skills" Margin="40,0,0,0" VerticalOptions="Center" FontAttributes="Bold" FontSize="20" TextColor="White"></Label>
+                </StackLayout>
+                <Button x:Name="SkillsButton" Clicked="SkillsButton_Clicked" Margin="-40" BackgroundColor="Transparent"></Button>
+            </Grid>
+        </Frame>
+        <Frame CornerRadius="20" HeightRequest="50" Margin="20" BackgroundColor="#cacbcc">
+            <Grid>
+                <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+                    <Label Text="Über diese App" Margin="0,0,0,0" VerticalOptions="Center" FontAttributes="Bold" FontSize="20" TextColor="White"></Label>
+                </StackLayout>
+                <Button x:Name="ThisApp" Clicked="ThisApp_Clicked" Margin="-40" BackgroundColor="Transparent"></Button>
+            </Grid>
+        </Frame>
+    </StackLayout>
+   
+
+</ContentPage>
+ 
