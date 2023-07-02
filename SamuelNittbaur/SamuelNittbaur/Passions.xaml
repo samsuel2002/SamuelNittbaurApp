@@ -75,7 +75,6 @@
                         <Image Source="WinterPic3.JPG" HeightRequest="200"></Image>
                         <Image Source="WinterPic4.JPG" HeightRequest="200"></Image>
                         <Image Source="WinterPic5.JPG" HeightRequest="200"></Image>
-                   
                 </StackLayout>
             </ScrollView>
 

@@ -18,7 +18,7 @@
             <Label Text="Q&amp;A" TextColor="White" FontAttributes="Bold" Margin="5" FontSize="20"></Label>
             <Label Text="Das unten gezeigt Q&amp;A Formular ist verknüpft mit einer Datenbank. Dabei können Sie individuelle Fragen und Antworten von mir abrufen. Dies wird dynamisch per C# erzeugt." TextColor="White" Margin="5"></Label>
 
-            </StackLayout>
+        </StackLayout>
     </ScrollView>
         <Button x:Name="Back" Clicked="Back_Clicked"  Text="Back"></Button>
     </StackLayout>
