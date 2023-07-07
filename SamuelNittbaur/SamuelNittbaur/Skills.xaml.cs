@@ -21,6 +21,10 @@ namespace SamuelNittbaur
             App.Current.MainPage = new OverView();
         }
 
-       
+        private void OpenGit_Clicked(object sender, EventArgs e)
+        {
+            Device.OpenUri(new Uri("https://1drv.ms/f/s!AmQ0qEhRpx1qku4vmOjE7FrdDiQoQg?e=cJp9Lo"));
+
+        }
     }
 }

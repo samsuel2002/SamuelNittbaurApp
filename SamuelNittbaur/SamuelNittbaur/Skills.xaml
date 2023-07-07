@@ -15,8 +15,9 @@
             <Label Text="Im Großen und Ganzen beschränkt sich mein Framework-Wissen auf die .Net Umgebung. Jedoch kann ich jegliche Plattformen und Formate damit abbilden: ASP.Net und Blazor für die Webentwicklung/ Rest-API Entwicklung, Xamarin Forms für die mobile Entwicklung und WPF für Desktop Applikationen." TextColor="White" Margin="5"></Label>
             <Label Text="Git" TextColor="White" FontAttributes="Bold" Margin="5" FontSize="20"></Label>
             <Label Text="Für fast alle meine Projekte errichte ich Repositorys, auch um agiler zu arbeiten in Teams. Ich behersche mehr als die Grundkenntnisse in Git, kann Merge Konflikte lösen und problemlos Remoterepositories in meine Entwicklungsumgebung integrieren. Ich konnte neben privater Projekte auch in den Software Abteilungen meiner Firma und in Uni Kursen diese Fähigkeiten schon anwenden." TextColor="White" Margin="5"></Label>
+            <Button x:Name="OpenGit" Clicked="OpenGit_Clicked" Text="Zu den Dokumenten (OneDrive)"></Button>
 
-            <Label Text="Office 365" TextColor="White" FontAttributes="Bold" Margin="5" FontSize="20"></Label>
+                <Label Text="Office 365" TextColor="White" FontAttributes="Bold" Margin="5" FontSize="20"></Label>
             <Label Text="Ein Must-Have in der heutigen Zeit ist natürlich das Verwenden von Office Produkten. Dabei habe ich während meiner Oberstufen Zeit auf dem Gymnasium ECDL-Zertifikate in PowerPoint und Excel erwerben können und diese Kenntnisse während meiner Arbeit, Ausbildung, Studium und Projekten weiter vertiefen können. Auf der anderen Seite behersche ich auch den Umgang mit Markdown, da ich das auch standartmäßig für meine Repositories benutze" TextColor="White" Margin="5"></Label>
 
             <Label Text="Hardware" TextColor="White" FontAttributes="Bold" Margin="5" FontSize="20"></Label>

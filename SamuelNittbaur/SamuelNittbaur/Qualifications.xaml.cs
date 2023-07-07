@@ -23,7 +23,12 @@ namespace SamuelNittbaur
 
         private void OpenIU_Clicked(object sender, EventArgs e)
         {
-            Device.OpenUri(new Uri("https://www.iu.de/?utm_source=google&utm_medium=cpc&utm_campaign=10501369421&utm_term=iu&utm_content=125084765412&device=c&gclid=Cj0KCQjw1_SkBhDwARIsANbGpFtEsA6New__OsPNoqy8Dfl-5jCQ8zZUgq0OHREuwDc4cowup_JZu1MaAlNxEALw_wcB"));
+            Device.OpenUri(new Uri("https://www.iu.de"));
+
+        } 
+        private void OpenOneDrive_Clicked(object sender, EventArgs e)
+        {
+            Device.OpenUri(new Uri("https://1drv.ms/f/s!AmQ0qEhRpx1qku4vmOjE7FrdDiQoQg?e=cJp9Lo"));
 
         }
     }
