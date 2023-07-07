@@ -2,23 +2,20 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="SamuelNittbaur.ThisApp"
+             xmlns:oxy="clr-namespace:OxyPlot.Xamarin.Forms;assembly=OxyPlot.Xamarin.Forms"
              BackgroundColor="#4a4a4a">
 
     <StackLayout>
     <ScrollView VerticalOptions="StartAndExpand">
-        <StackLayout>
+            <StackLayout>
+        <StackLayout x:Name="ContentFrame">
                 <Frame BackgroundColor="#3273a8" Margin="120,10,120,10" HeightRequest="50" HorizontalOptions="CenterAndExpand" WidthRequest="50" CornerRadius="20">
                     <Label Text="i" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" FontSize="30" TextColor="White" FontAttributes="Bold"></Label>
                 </Frame>
-            <Label TextColor="White" Text="Über diese App" FontSize="30" FontAttributes="Bold" Margin="5,0,5,5"></Label>
-            <Label Text="Info" TextColor="White" FontAttributes="Bold" Margin="5" FontSize="20"></Label>
-            <Label Text="Die Idee dieser App besteht aus einer orginellen Idee um meine Persönlichkeit zu zeigen. Die App wird dabei zur Einsicht auch öffentlich in meinem Github Repository zur Verfügung stehen. Jedoch gibt es bei der Idee ein Problem: Die App hat nicht besonders viel Funktionalität und in diesem Kontext gibt es auch nicht besonder viel, was man dabei Backend-technisch einfügen kann. Jedoch habe ich mir ein paar Punkte überlegt, die im folgenden aufgelistet werden:" TextColor="White" Margin="5"></Label>
-            <Label Text="Laden aus einer Datenbank" TextColor="White" FontAttributes="Bold" Margin="5" FontSize="20"></Label>
-            <Label Text="Um meine Fähigkeiten im Bereich SQL und Datenbanken zu beweisen, sind die Texte auf dieser Seite aus einer Online Datenbank entzogen." TextColor="White" Margin="5"></Label>
-            <Label Text="Q&amp;A" TextColor="White" FontAttributes="Bold" Margin="5" FontSize="20"></Label>
-            <Label Text="Das unten gezeigt Q&amp;A Formular ist verknüpft mit einer Datenbank. Dabei können Sie individuelle Fragen und Antworten von mir abrufen. Dies wird dynamisch per C# erzeugt." TextColor="White" Margin="5"></Label>
+                <Label TextColor="White" Text="Über diese App" FontSize="30" FontAttributes="Bold" Margin="5,0,5,5"></Label>
+                </StackLayout>
 
-        </StackLayout>
+            </StackLayout>
     </ScrollView>
         <Button x:Name="Back" Clicked="Back_Clicked"  Text="Back"></Button>
     </StackLayout>

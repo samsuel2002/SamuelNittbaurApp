@@ -8,15 +8,7 @@
             <Label TextColor="White" FontAttributes="Bold" HorizontalOptions="Center" FontSize="40" Margin="0,20,0,0">About Me</Label>
         
             <BoxView HeightRequest="50"></BoxView>
-            <Frame CornerRadius="20" HeightRequest="50" Margin="20" BackgroundColor="#cacbcc">
-                <Grid>
-                    <StackLayout Orientation="Horizontal">
-                        <Image Source="ListPassion.jpg" Margin="-20"></Image>
-                        <Label Text="Meine Passionen" Margin="40,0,0,0" VerticalOptions="Center" FontAttributes="Bold" FontSize="20" TextColor="White"></Label>
-                    </StackLayout>
-                    <Button x:Name="PassionsButton" Clicked="PassionsButton_Clicked" Margin="-40" BackgroundColor="Transparent"></Button>
-                </Grid>
-            </Frame>
+           
             <Frame CornerRadius="20" HeightRequest="50" Margin="20" BackgroundColor="#cacbcc">
                 <Grid>
                     <StackLayout Orientation="Horizontal">
@@ -41,6 +33,15 @@
                     <Label Text="Über diese App" Margin="0,0,0,0" VerticalOptions="Center" FontAttributes="Bold" FontSize="20" TextColor="White"></Label>
                 </StackLayout>
                 <Button x:Name="ThisApp" Clicked="ThisApp_Clicked" Margin="-40" BackgroundColor="Transparent"></Button>
+            </Grid>
+        </Frame>
+        <Frame CornerRadius="20" HeightRequest="50" Margin="20" BackgroundColor="#cacbcc">
+            <Grid>
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="ListPassion.jpg" Margin="-20"></Image>
+                    <Label Text="Meine Passionen" Margin="40,0,0,0" VerticalOptions="Center" FontAttributes="Bold" FontSize="20" TextColor="White"></Label>
+                </StackLayout>
+                <Button x:Name="PassionsButton" Clicked="PassionsButton_Clicked" Margin="-40" BackgroundColor="Transparent"></Button>
             </Grid>
         </Frame>
     </StackLayout>
