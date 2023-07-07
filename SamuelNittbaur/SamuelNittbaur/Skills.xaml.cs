@@ -23,7 +23,7 @@ namespace SamuelNittbaur
 
         private void OpenGit_Clicked(object sender, EventArgs e)
         {
-            Device.OpenUri(new Uri("https://1drv.ms/f/s!AmQ0qEhRpx1qku4vmOjE7FrdDiQoQg?e=cJp9Lo"));
+            Device.OpenUri(new Uri("https://github.com/samsuel2002/SamuelNittbaurApp"));
 
         }
     }

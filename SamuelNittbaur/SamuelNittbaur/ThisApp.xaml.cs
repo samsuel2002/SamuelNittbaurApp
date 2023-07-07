@@ -130,7 +130,7 @@ namespace SamuelNittbaur
 
             await InsertIntoDB(new TextBlockPrefab()
             {
-                Content = "Die Idee dieser App besteht aus einer orginellen Idee um meine Persönlichkeit zu zeigen. Die App wird dabei zur Einsicht auch öffentlich in meinem Github Repository zur Verfügung stehen. Jedoch gibt es bei der Idee ein Problem: Die App hat nicht besonders viel Funktionalität und in diesem Kontext gibt es auch nicht besonder viel, was man dabei Backend-technisch einfügen kann. Jedoch habe ich mir ein paar Punkte überlegt, die im folgenden aufgelistet werden:",
+                Content = "Die Idee dieser App besteht aus einer orginellen Idee, um meine Persönlichkeit zu zeigen. Die App wird dabei zur Einsicht auch öffentlich in meinem Github Repository zur Verfügung stehen. Jedoch gibt es bei der Idee ein Problem: Die App hat nicht besonders viel Funktionalität und in diesem Kontext gibt es auch nicht besonder viel, was man dabei Backend-technisch einfügen kann. Jedoch habe ich mir ein paar Punkte überlegt, die im folgenden aufgelistet werden:",
                 Header = false
             });
             await Task.Delay(1000);
@@ -286,15 +286,7 @@ namespace SamuelNittbaur
         {
             var connStringBuilder = new NpgsqlConnectionStringBuilder()
             {
-                Host = "samuelnnittbaurapp-8728.8nj.cockroachlabs.cloud",
-                Port = 26257,
-                SslMode = SslMode.Require,
-                Username = "samuel",
-                Password = "OUmeOzMtt-jEDA9DOpDo_g",
-                Database = "defaultdb",
-                Options = "--cluster=samuelnnittbaurapp-8728",
-                RootCertificate = "~/.postgres/root.crt",
-                TrustServerCertificate = true
+                
             };
 
             return connStringBuilder.ConnectionString;
