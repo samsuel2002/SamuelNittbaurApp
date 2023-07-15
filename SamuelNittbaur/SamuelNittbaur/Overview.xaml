@@ -6,10 +6,10 @@
 
         <StackLayout>
             <Label TextColor="White" FontAttributes="Bold" HorizontalOptions="Center" FontSize="40" Margin="0,20,0,0">About Me</Label>
-        
-            <BoxView HeightRequest="50"></BoxView>
-           
-            <Frame CornerRadius="20" HeightRequest="50" Margin="20" BackgroundColor="#cacbcc">
+        <Label TextColor="White" Margin="20" Text="Hallo zusammen, ich bin Samuel Nittbaur, 21 Jahre alt und komme aus der Umgebung von Stuttgart. In dieser App werde ich Ihnen verschiedene Aspekte meines Lebens vorstellen.">
+
+        </Label>
+        <Frame CornerRadius="20" HeightRequest="50" Margin="20" BackgroundColor="#cacbcc">
                 <Grid>
                     <StackLayout Orientation="Horizontal">
                         <Image Source="linkdinPic.jpg" Margin="-30"></Image>

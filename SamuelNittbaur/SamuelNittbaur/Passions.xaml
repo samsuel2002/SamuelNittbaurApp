@@ -15,7 +15,7 @@
             <Label Text="Tauchen" TextColor="White" FontAttributes="Bold" FontSize="25" Margin="5"></Label>
 
             <Label TextColor="White" Margin="5"
-                   Text="Eine bedeutende Facette meines Lebens ist das Tauchen, eine Sportart, bei der ich nur durch rationales Denken und Vertrauen überleben kann. Bei einer Tauchtiefe von 40 Metern, meinem bisherigen persönlichen Rekord, hatte ich die Möglichkeit, in unzugängliche Welten einzutauchen. Der immense Druck lehrte mich stets, mich selbst unter Kontrolle zu halten. Darüber hinaus eröffnet mir das Tauchen die Möglichkeit, eine Vielzahl von unterschiedlichen Orten zu erkunden, darunter Ägypten, Panama und Indonesien." ></Label>
+                   Text="Eine bedeutende Facette meines Lebens ist das Tauchen, eine Sportart, bei der ich nur durch rationales Denken und Vertrauen überleben kann. Der immense Druck lehrte mich stets, mich selbst unter Kontrolle zu halten. Darüber hinaus eröffnet mir das Tauchen die Möglichkeit, eine Vielzahl von unterschiedlichen Orten zu erkunden, darunter Ägypten, Panama und Indonesien." ></Label>
             <ScrollView Orientation="Horizontal">
                 <StackLayout Orientation="Horizontal">
                     <Image Source="DivePic1.jpg" HeightRequest="200"></Image>
@@ -26,13 +26,14 @@
             </ScrollView>
 
             <Label Text="Cardio" TextColor="White" FontAttributes="Bold" FontSize="25" Margin="5"></Label>
-            <Label TextColor="White" Margin="5" 
-                   Text="• (Black Forrest Ultra Bike 2023)"></Label>
-            <Label TextColor="White" Margin="5" 
-                   Text="• (MudMasters 2023)"></Label>
+   
             <Label TextColor="White" Margin="5"
                    Text="Eine weitere bedeutsame sportliche Disziplin prägt mein Leben maßgeblich: Ausdauer. Als begeisterter Läufer und Fahrradfahrer widme ich mich regelmäßig diesen Sportarten, indem ich mehrmals pro Woche trainiere. Dadurch eröffnen sich mir auch immer wieder die Gelegenheiten, an Wettbewerben teilzunehmen: " ></Label>
-            <Label TextColor="White" Margin="5" 
+                <Label TextColor="White" Margin="5" 
+                   Text="• (Black Forrest Ultra Bike 2023)"></Label>
+                <Label TextColor="White" Margin="5" 
+                   Text="• (MudMasters 2023)"></Label>
+                <Label TextColor="White" Margin="5" 
                    Text="• Marathon 2023 Freiburg"></Label>
             <Label TextColor="White" Margin="5" 
                    Text="• Halbmarathon 2023 Stuttgart"></Label>
@@ -55,7 +56,7 @@
             <Label Text="Segeln" TextColor="White" FontAttributes="Bold" FontSize="25" Margin="5"></Label>
 
             <Label TextColor="White" Margin="5"
-                   Text="Das Segeln hat einen bedeutenden Einfluss auf mein Leben und ist eine Sportart, die mir große Freude bereitet. Die Kombination aus Wind und Wasser fasziniert mich zutiefst und ermöglicht es mir, neue Horizonte zu erkunden. Sobald ich auf einem Segelboot bin, spüre ich eine besondere Verbindung zur Natur und finde innere Ruhe. Das Segeln erfordert Geschicklichkeit, Teamwork und ein Verständnis für die Kräfte der Natur, die wir nutzen können." ></Label>
+                   Text="Das Segeln hat einen bedeutenden Einfluss auf mein Leben und ist eine Sportart, die mir große Freude bereitet. Die Kombination aus Wind und Wasser fasziniert mich zutiefst und ermöglicht es mir, neue Horizonte zu erkunden. Segeln erfordert Geschicklichkeit, Teamwork und ein Verständnis für die Kräfte der Natur, die wir nutzen können." ></Label>
             <ScrollView Orientation="Horizontal">
                 <StackLayout Orientation="Horizontal">
                     <Image Source="SailPic1.jpg" HeightRequest="200"></Image>
@@ -67,7 +68,7 @@
             <Label Text="Skifahren und Berge" TextColor="White" FontAttributes="Bold" FontSize="25" Margin="5"></Label>
 
             <Label TextColor="White" Margin="5"
-                   Text="Die Berge haben eine tiefgreifende Wirkung auf mein Leben, und das Skifahren im Winter bereitet mir eine immense Freude. Die imposante Verschmelzung von schneebedeckten Gipfeln und der Möglichkeit, elegant die Hänge hinabzugleiten, übt eine unwiderstehliche Faszination auf mich aus und eröffnet mir völlig neue Perspektiven." ></Label>
+                   Text="Die Berge haben eine besondere Wirkung auf mich, und das Skifahren im Winter bereitet mir eine immense Freude. Neben Skifahren und Bergsteigen bin ich ein sehr großer Fan von Schneezelten und versuche dies auch regelmäßig in meine Aktivitäten einzubinden." ></Label>
             <ScrollView Orientation="Horizontal">
                 <StackLayout Orientation="Horizontal">
                         <Image Source="WinterPic1.jpg" HeightRequest="200"></Image>

@@ -7,7 +7,7 @@
     <StackLayout>
     <ScrollView VerticalOptions="StartAndExpand">
         <StackLayout>
-            <Image Source="ListProfile.jpg" Margin="0,-30,0,30"></Image>
+            <Image Source="ListProfile.jpg" Margin="0,-10,0,30"></Image>
             <Label TextColor="White" Text="Meine Skills" FontSize="30" FontAttributes="Bold" Margin="5,-30,5,5"></Label>
             <Label Text="Programmiersprachen" TextColor="White" FontAttributes="Bold" Margin="5" FontSize="20"></Label>
             <Label Text="Im Fokus meiner Berufswahl steht natürlich die Wahl der Programmiersprachen in denen ich mich vertiefe. Mein ganz klarer Favorit ist die Sprache C# in Kombination mit den .Net Frameworks. Zu dem Frameworks werde ich weiter unten noch mehr erzählen. Neben C# konnte ich verschiedene Sprachen in unterschiedlichen Projekten erlernen. Dazu gehört Python (durch rPi Projekte), Java durch meine Uni und durch das Akademiestudium, HTML und CSS durch private Projekte und C++ durch µ-Controller Programmierung während meiner Ausbildung. " TextColor="White" Margin="5"></Label>
