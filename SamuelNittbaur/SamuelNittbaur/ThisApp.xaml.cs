@@ -20,9 +20,6 @@ namespace SamuelNittbaur
         public ThisApp()
         {
             InitializeComponent();
-            //DeleteTable();
-            //CreateDB();
-            //InsertData();
             GetFromDB();
             Add_Feedback();
             Add_Chart();
@@ -284,19 +281,7 @@ namespace SamuelNittbaur
 
         private string GetConnectionString()
         {
-            var connStringBuilder = new NpgsqlConnectionStringBuilder()
-            {
-                Host = "samuelnnittbaurapp-8728.8nj.cockroachlabs.cloud",
-                Port = 26257,
-                SslMode = SslMode.Require,
-                Username = "samuel",
-                Password = "OUmeOzMtt-jEDA9DOpDo_g",
-                Database = "defaultdb",
-                Options = "--cluster=samuelnnittbaurapp-8728",
-                RootCertificate = "~/.postgres/root.crt",
-                TrustServerCertificate = true
-            };
-
+         
             return connStringBuilder.ConnectionString;
 
         }

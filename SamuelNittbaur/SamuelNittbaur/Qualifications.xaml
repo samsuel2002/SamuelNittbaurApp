@@ -16,11 +16,11 @@
                 <Label Text="Akademie Studium" TextColor="White" FontAttributes="Bold" Margin="5" FontSize="20"></Label>
                 <Label Text="Neben meiner Ausbildung absolvierte ich Kurse an der Fernuni Hagen in theoretischer Informatik. Die Kurse umfassten Themen, wie objektorientierte Programmierung mit Java, imperative Programmierung mit Pascal und wissenschaftliches Arbeiten." TextColor="White" Margin="5"></Label>
                 <Label Text="Elektrotechnik Ausbildung (EGS)" TextColor="White" FontAttributes="Bold" Margin="5" FontSize="20"></Label>
-                <Label Text="Nach meinem Abitur habe ich eine Ausbildung im Bereich Elektrotechnik begonnen und diese im Juli 2023 verkürzt abgeschlossen. Die Ausbildung umfasste das Entwerfen von Schaltkreise, das Programmieren von µ-Controllern und das integrieren von Steuereungseinheiten in Industrieanlagen." TextColor="White" Margin="5"></Label>
+                <Label Text="Nach meinem Abitur habe ich eine Ausbildung im Bereich Elektrotechnik begonnen und diese im Juli 2023 verkürzt abgeschlossen. Die Ausbildung umfasste das Entwerfen von Schaltkreisen, das Programmieren von µ-Controllern und das integrieren von Steuerungseinheiten in Industrieanlagen. Die mir dort angebotene Stelle habe ich nicht angenommen, da ich mich eher in einem Remote Job sehe." TextColor="White" Margin="5"></Label>
                 <Button x:Name="OpenAusbildung" Clicked="OpenOneDrive_Clicked" Text="Zu den Dokumenten (OneDrive)"></Button>
                 <Label Text="Abitur" TextColor="White" FontAttributes="Bold" Margin="5" FontSize="20"></Label>
 
-                <Label Text="Im Jahr 2020 habe ich mein Abitur an einem allgemeinbildenden Gymnasium absolviert (Elisabeth Selbert Gymnasium) in Filderstadt." TextColor="White" Margin="5"></Label>
+                <Label Text="Im Jahr 2020 habe ich mein Abitur an einem allgemeinbildenden Gymnasium abgeschlossen (ESG in Filderstadt)." TextColor="White" Margin="5"></Label>
                 <BoxView HeightRequest="50"></BoxView>
         </StackLayout>
     </ScrollView>

@@ -29,11 +29,12 @@
    
             <Label TextColor="White" Margin="5"
                    Text="Eine weitere bedeutsame sportliche Disziplin prägt mein Leben maßgeblich: Ausdauer. Als begeisterter Läufer und Fahrradfahrer widme ich mich regelmäßig diesen Sportarten, indem ich mehrmals pro Woche trainiere. Dadurch eröffnen sich mir auch immer wieder die Gelegenheiten, an Wettbewerben teilzunehmen: " ></Label>
-                <Label TextColor="White" Margin="5" 
-                   Text="• (Black Forrest Ultra Bike 2023)"></Label>
-                <Label TextColor="White" Margin="5" 
+               
+            <Label TextColor="White" Margin="5" 
                    Text="• (MudMasters 2023)"></Label>
-                <Label TextColor="White" Margin="5" 
+            <Label TextColor="White" Margin="5" 
+                   Text="• Black Forrest Ultra Bike 2023"></Label>
+            <Label TextColor="White" Margin="5" 
                    Text="• Marathon 2023 Freiburg"></Label>
             <Label TextColor="White" Margin="5" 
                    Text="• Halbmarathon 2023 Stuttgart"></Label>
